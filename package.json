@@ -1,0 +1,23 @@
+{
+  "name": "mx-atrium-express",
+  "version": "0.0.1",
+  "description": "Express server to proxy to Atrium API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mxenabled/mx-atrium-express.git"
+  },
+  "author": "MX",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mxenabled/mx-atrium-express/issues"
+  },
+  "homepage": "https://github.com/mxenabled/mx-atrium-express#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}
