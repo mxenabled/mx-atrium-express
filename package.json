@@ -4,6 +4,7 @@
   "description": "Express server to proxy to Atrium API",
   "main": "index.js",
   "scripts": {
+    "setup": "node setup.js",
     "start": "node index.js"
   },
   "repository": {

@@ -4,8 +4,6 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
 
-console.log('c', credentials);
-
 app.use(bodyParser.json());
 
 const AtriumClient = new Atrium.Client(credentials.apiKiey, credentials.clientId, Atrium.environments.sand);
