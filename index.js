@@ -15,7 +15,7 @@ Atrium.endpoints.forEach(endpoint => {
   app[endpoint.method](endpoint.url, (request, response) => {
     AtriumClient[endpoint.clientMethod](request)
     .then(json => {
-      response.json(json[endpoint.key]);
+      response.json(json);
     });
   });
 });
