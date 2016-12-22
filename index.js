@@ -1,4 +1,4 @@
-const Atrium = require('../atrium');
+const Atrium = require('mx-atrium');
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
