@@ -9,7 +9,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors());
 
-const AtriumClient = new Atrium.Client(credentials.apiKiey, credentials.clientId, Atrium.environments.sand);
+const AtriumClient = new Atrium.Client(credentials.apiKiey, credentials.clientId, Atrium.environments.development);
 
 Atrium.endpoints.forEach(endpoint => {
   app[endpoint.method](endpoint.url, (request, response) => {
